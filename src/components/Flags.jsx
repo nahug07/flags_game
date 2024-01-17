@@ -99,15 +99,15 @@ export default function Flags() {
           ))}
         </div>
       </div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div className="answer">
         {showAnswer ? (
-          <h2
-            className={
-              flagCountry.name === selected.name ? "correct" : "incorrect"
-            }
-          >
-            Correct : {flagCountry.name}
-          </h2>
+          flagCountry.name === selected.name ? (
+            <h2 className={"correct"}>Correct : {flagCountry.name}</h2>
+          ) : (
+            <h2 className={"incorrect"}>
+              Incorrect! Correct was : {flagCountry.name}
+            </h2>
+          )
         ) : null}
       </div>
     </>

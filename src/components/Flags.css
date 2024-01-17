@@ -90,3 +90,10 @@ p {
 .instructions strong {
     color: rgb(var(--accent-light));
 }
+.answer {
+    display: "flex";
+    justify-Content: "center";
+    border: 1px solid rgba(var(--accent-light), 25%);
+    background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+    border-radius: 8px;
+}
