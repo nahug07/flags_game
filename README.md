@@ -1,3 +1,7 @@
+# Flags Game
+
+![Flags Game](flags_game.png)
+
 # Astro Starter Kit: Basics
 
 ```sh
