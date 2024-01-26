@@ -65,7 +65,7 @@ export default function Flags() {
         <p class="instructions">
           <strong>Total : {score.total}</strong>
           <strong>Correct : {score.correct}</strong>
-          <strong>InCorrect : {score.incorrect}</strong>
+          <strong>Incorrect : {score.incorrect}</strong>
         </p>
       </div>
       <div

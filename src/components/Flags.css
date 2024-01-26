@@ -4,6 +4,7 @@
   .flag-icon{
        width: 5em;
        line-height: 5em;
+       
   }
   .correct{
      color:green
@@ -48,6 +49,10 @@ h2 {
     border-radius: 8px;
     color: white;
     opacity: 0.8;
+
+    @media (max-width: 720px) {
+        font-size: 1rem;
+    }
 }
 p {
     margin-top: 0.5rem;
@@ -78,7 +83,13 @@ p {
     padding: 1.5rem;
     border-radius: 8px;
     width: 100%;
+
+    @media (max-width: 720px) {
+        margin: 0;
+        padding: 0.5rem;
+    }
 }
+
 .instructions code {
     font-size: 0.8em;
     font-weight: bold;
@@ -89,6 +100,10 @@ p {
 }
 .instructions strong {
     color: rgb(var(--accent-light));
+
+    @media (max-width: 720px) {
+        font-size: "15px";
+    }
 }
 .answer {
     display: "flex";
