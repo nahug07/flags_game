@@ -80,16 +80,16 @@ export default function Flags() {
         {flagCountry.name ? (
           <span
             style={{
-              width: "18em",
+              width: "16em",
               minWidth: "10em",
               lineHeight: "14em",
-              margin: "10px",
+              margin: "5px",
             }}
             className={`fi fi-${flagCountry["alpha-2"].toLowerCase()}`}
           ></span>
         ) : null}
 
-        <div style={{ margin: "10px" }}>
+        <div className="options">
           {country.map((c) => (
             <ul role="list" className="link-card-grid">
               <li className="link-card" onClick={(e) => checkAnswer(c)}>

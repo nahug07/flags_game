@@ -112,3 +112,11 @@ p {
     background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
     border-radius: 8px;
 }
+
+.options {
+    margin: "10px";
+
+    @media (max-width: 720px) {
+        margin: 0;
+    }
+}
